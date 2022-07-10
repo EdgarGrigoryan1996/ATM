@@ -1,0 +1,41 @@
+.home-page,
+.card-page,
+.check-card-password{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Check Card Password */
+.check-card-password{
+	flex-direction: column;
+}
+.check-card-password input{
+	padding: 20px;
+	border-radius: 20px;
+	font-size: 28px;
+	margin-top: 25px;
+	text-align: center;
+	letter-spacing: 10px;
+}
+
+/* Success */
+.success-page{
+	height: 100%;
+	width: 100%;
+	justify-content: space-between;
+}
+.left{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-left: 10px;
+}
+.right{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-right: 10px;
+}
